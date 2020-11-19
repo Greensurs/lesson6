@@ -2,7 +2,7 @@ FROM python
 
 WORKDIR /src
 
-COPY ./requirements.txt /spc/requirements.txt
+COPY ./requirements.txt /src/requirements.txt
 RUN pip install -r requirements.txt
 
 COPY ./ /src/
