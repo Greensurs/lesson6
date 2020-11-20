@@ -11,4 +11,4 @@ def v2():
 
 @app.route('/ssh')
 def ssh():
-    return 'Hello from auto apdate with ssh'
+    return 'Hello from auto apdate with ssh v2'
