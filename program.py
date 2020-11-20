@@ -8,3 +8,7 @@ def hello_world():
 @app.route('/v2')
 def v2():
     return 'Hello from auto apdate'
+
+@app.route('/ssh')
+def ssh():
+    return 'Hello from auto apdate with ssh'
