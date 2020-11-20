@@ -54,7 +54,7 @@ jobs:
       with:
         push: true
         tags: greensurs/flask_app_example:latest
-      - name: Restart service
+    - name: Restart service
       uses: fifsky/ssh-action@master
       with:
         command: |
