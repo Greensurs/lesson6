@@ -53,7 +53,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: greensurs/flask_app_example:latest
+        tags: lesson6/flask_app_example:latest
       - name: Restart service
       uses: fifsky/ssh-action@master
       with:
